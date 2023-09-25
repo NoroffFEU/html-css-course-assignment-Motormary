@@ -3,11 +3,12 @@
 /* Files that are only needed to be imported are called partials */
 /* These are marked with an underscore: */
 @import url("./_variables.css");
+@import url("./navbar.css");
 /* Feel free to add as many of these imports as you need */
 
 body {
   color: #fff;
-  background-color: var(--color-secondary);
+  background-color: var(--color-bg-primary);
 }
 
 .hero {
@@ -23,32 +24,6 @@ body {
   text-align: center;
 }
 
-nav {
-  position: fixed;
-  height: 100px;
-  width:100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  .nav-left {
-    height: 100%;
-    width: 100%;
-  }
-  .nav-center {
-    height: 100%;
-    width: 100%;
-  }
-  .nav-right {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 40px;
-  }
-}
 
 .border {
   border: 1px;
