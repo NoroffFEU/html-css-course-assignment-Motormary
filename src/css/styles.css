@@ -6,9 +6,14 @@
 /* Feel free to add as many of these imports as you need */
 
 body {
-  color: var(--color-primary);
+  color: #fff;
   background-color: var(--color-secondary);
 }
+
+.hero {
+  padding-top: 100px;
+}
+
 
 .centered {
   display: flex;
@@ -16,4 +21,45 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+nav {
+  position: fixed;
+  height: 100px;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .nav-left {
+    height: 100%;
+    width: 100%;
+  }
+  .nav-center {
+    height: 100%;
+    width: 100%;
+  }
+  .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 40px;
+  }
+}
+
+.border {
+  border: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  border-color: black;
+}
+
+.border-white {
+  border: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  border-color: #fff;
 }
