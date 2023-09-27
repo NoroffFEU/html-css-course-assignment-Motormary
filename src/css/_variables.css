@@ -2,6 +2,7 @@
 /* This could be colors, fonts, or padding sizes! */
 
 :root {
+  font-size: 1rem;
   --color-bg-primary: #1B203D;
   --color-primary: #A00000;
   --color-primary-hover: #C00303;

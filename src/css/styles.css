@@ -6,15 +6,26 @@
 @import url("./navbar.css");
 /* Feel free to add as many of these imports as you need */
 
+@font-face {
+  font-family: 'motiva-sans';
+  src: url("/fonts/MotivaSansBlack.woff") format("woff"),
+       url("/fonts/MotivaSansBold.woff") format("woff"),
+       url("/fonts/MotivaSansExtraBold.woff") format("woff"),
+       url("/fonts/MotivaSansMedium.woff") format("woff"),
+       url("/fonts/MotivaSansRegular.woff") format("woff"),
+       url("/fonts/MotivaSansLight.woff") format("woff");
+}
+
 body {
+  font-family: 'motiva-sans', sans-serif;
   color: #fff;
   background-color: var(--color-bg-primary);
 }
 
-.hero {
-  padding-top: 100px;
-}
 
+.hero {
+  padding-top: 6.25rem;
+}
 
 .centered {
   display: flex;
@@ -23,7 +34,6 @@ body {
   justify-content: center;
   text-align: center;
 }
-
 
 .border {
   border: 1px;
