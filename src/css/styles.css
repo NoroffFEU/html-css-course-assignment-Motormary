@@ -26,6 +26,8 @@ a {
   font-family: 'motiva-sans', sans-serif;
 }
 
+/* TOOLS */
+
 .border {
   border: 1px;
   border-style: solid;
@@ -40,10 +42,20 @@ a {
   border-color: #fff;
 }
 
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/* HERO */
+
 .hero {
   position: relative;
   padding-top: 6.25rem;
-  height: 40rem;
   max-width: 100vw;
 }
 
@@ -54,15 +66,42 @@ a {
   object-position: center;
 }
 
+.hero-content {
+  position: absolute;
+  inset: 0;
+  padding: 1rem;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.cta-container {
+  height: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+/* FIX RESPONSE BUTTON */
+.cta-button {
+width: 18.75rem;
+height: 63px;
+color: white;
+background: #A00000;
+border: 1px solid #000000;
+box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+border-radius: 10px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+
+flex-grow: 0;
+
+}
+
 .container {
   width: 100vw;
   margin: 0 135px;
 }
 
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
