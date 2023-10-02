@@ -8,7 +8,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  height: 6.25rem;
+  min-height: 6.25rem;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -23,11 +23,17 @@ nav a {
   font-weight: bold;
 }
 
-/* FIX LOGO */
+/* NAVBAR LOGO */
+
 .nav-left {
   height: 100%;
   min-width: 33.3%;
+  display: flex;
+  justify-content: center;
 }
+
+
+/* NAVBAR SEARCHBAR */
 
 .nav-center {
   height: 100%;
@@ -46,7 +52,7 @@ nav a {
     border-radius: 10px;
     background-color: white;
     height: 3rem;
-    min-width: 10rem;
+    min-width: 15.5rem;
     width: 100%;
   }
   
@@ -75,11 +81,11 @@ nav a {
     border: 1px solid #ccc;
     border-top: none;
     background-color: white;
-    height: 10rem;
+    height: fit-content;
     overflow-y: auto;
   }
 
-  /* FIX DROPDOWN MENU ITEMS */
+  /* SEARCH DROPDOWN */
   
   .searchfield:focus-within .dropdown {
     display: block;
@@ -92,25 +98,55 @@ nav a {
     margin: 0;
   }
   
-  .dropdown li {
-    padding: 0.25rem;
-  }
+
   .dropdown li:hover {
     background-color: var(--color-text-muted);
   }
 
   .dropdown a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: black;
   }
+
+  .dropdown-game {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+  }  
+
+  .item-cover {
+    margin-right: 0.25rem;
+  }
+
+  .item-name {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  .item-description {
+    margin: 0;
+    font-size: 0.75rem;
+    color: #808080;
+  }
+
+
+  /* NAVBAR NAVIGATION */
   
 
 .nav-right {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */ /* WRAP OR HAMBURGER */
   align-items: center;
   justify-content: space-between;
   height: 100%;
   min-width: 33.3%;
-  padding-left: 4rem;
   list-style: none;
+}
+
+.cart-icon {
+  padding: 0;
+  margin: 0;
 }
