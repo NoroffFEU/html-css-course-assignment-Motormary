@@ -83,7 +83,7 @@ a {
 /* FIX RESPONSE BUTTON */
 .cta-button {
   width: 18.75rem;
-  height: 63px;
+  height: 4rem;
   color: white;
   background: #a00000;
   border: 1px solid #000000;
@@ -93,8 +93,8 @@ a {
   font-weight: 700;
   font-size: 28px;
   line-height: 33px;
-  flex-grow: 0;
 }
+
 
 /* "TEXT-BORDER" */
 .cta-button span {
@@ -103,6 +103,7 @@ a {
 }
 
 .cta-button:hover {
+  cursor: pointer;
   background: #c00303;
 }
 
