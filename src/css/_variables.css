@@ -2,6 +2,9 @@
 /* This could be colors, fonts, or padding sizes! */
 
 :root {
-  --color-primary: #7be447;
-  --color-secondary: #1f1f1f;
+  font-size: 1rem;
+  --color-bg-primary: #1B203D;
+  --color-primary: #A00000;
+  --color-primary-hover: #C00303;
+  --color-text-muted: rgb(197, 197, 197);
 }

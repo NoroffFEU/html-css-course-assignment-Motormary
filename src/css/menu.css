@@ -1,0 +1,15 @@
+/* TODO HIDE SEARCH FIELD ABOVE SM */
+
+@media only screen and (min-width: 601px) {
+    .menu-container {
+      padding-top: 6.25rem;
+    }
+  }
+  
+  /* SM */
+  
+  @media only screen and (max-width: 601px) {
+    .menu-container {
+      padding-top: 8rem;
+    }
+  }
