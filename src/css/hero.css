@@ -1,5 +1,5 @@
-/* RESPONSIVE CTA BUTTON */
-@media only screen and (min-width: 802px) {
+/* MD UP */
+@media only screen and (min-width: 811px) {
   .cta-button {
     width: 18.75rem;
     height: 4rem;
@@ -11,7 +11,9 @@
     margin-bottom: 177px;
   }
 }
-@media only screen and (max-width: 801px) {
+
+/* MD DOWN */
+@media only screen and (max-width: 810px) {
   .cta-button {
     width: 8rem;
     height: 2rem;
