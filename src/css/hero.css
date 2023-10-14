@@ -1,0 +1,95 @@
+/* RESPONSIVE CTA BUTTON */
+@media only screen and (min-width: 802px) {
+  .cta-button {
+    width: 18.75rem;
+    height: 4rem;
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .hero {
+    margin-bottom: 177px;
+  }
+}
+@media only screen and (max-width: 801px) {
+  .cta-button {
+    width: 8rem;
+    height: 2rem;
+  }
+  .cta-container {
+    padding-top: 1rem;
+  }
+
+  .hero {
+    margin-bottom: 20px;
+
+    }
+}
+/* -------------------------------------- */
+
+
+/* ABOVE SM */
+
+@media only screen and (min-width: 601px) {
+  .hero {
+    padding-top: 6.25rem;
+  }
+}
+
+/* SM */
+
+@media only screen and (max-width: 601px) {
+  .hero {
+    padding-top: 8rem;
+  }
+}
+/* -------------------------------------- */
+
+.hero {
+  position: relative;
+  max-width: 100vw;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-content {
+  position: absolute;
+  inset: 0;
+  padding: 1rem;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.cta-container {
+  height: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+/* FIX RESPONSE BUTTON */
+.cta-button {
+  color: white;
+  background: #a00000;
+  border: 1px solid #000000;
+  box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* "TEXT-BORDER" */
+.cta-button span {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.cta-button:hover {
+  cursor: pointer;
+  background: #c00303;
+}
